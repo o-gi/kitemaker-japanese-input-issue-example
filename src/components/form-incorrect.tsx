@@ -1,11 +1,10 @@
-import Input from "./default-input";
+import Input from "./input";
 
 export function FormIncorrect() {
     const onKeydown = (e: React.KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter') {
             return e.currentTarget.form?.submit();
         }
-
     };
 
     return (

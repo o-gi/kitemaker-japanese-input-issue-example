@@ -1,9 +1,7 @@
 import { FormCorrect } from "./components/form-correct"
 import { FormIncorrect } from "./components/form-incorrect"
 
-
 function App() {
-
   return (
     <>
       <div className='container max-w-xl mx-auto my-20'>

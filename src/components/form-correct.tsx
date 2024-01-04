@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Input from "./default-input";
+import Input from "./input";
 
 export function FormCorrect() {
     const [composing, setComposition] = useState(false);
